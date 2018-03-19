@@ -1,4 +1,6 @@
 @import "https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700&amp;subset=cyrillic";
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption');
+
 
 body {
   font-family: 'PT Sans', 'Arial', sans-serif;
@@ -137,6 +139,7 @@ transition: color .1s ease;
   width: 300px;
   opacity: .1;
   transition: opacity 1s ease;
+  z-index: 5;
 
 }
 

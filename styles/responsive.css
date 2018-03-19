@@ -9,11 +9,53 @@
     width: 100%;
     margin: 80px;
   }
+
+  .gallery div::before, galleryNav div::after {
+    background: #fff;
+  }
 }
 
 @media all and (max-width: 720px) {
   article {
     width: 100%;
     margin: 0 20px;
+  }
+
+  .postsFeed {
+    padding-top: 60px;
+  }
+  .postsFeed a {
+    width: calc(100% - 40px);
+
+  }
+  .postsFeed figure {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .postsFeed h2 {
+    font-size: 24px;
+    margin-top: 0;
+
+  }
+  .postsFeed p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .postsFeed figure {
+    margin-bottom: 31px;
+    width: 700px;
+    height: 200px;
+  }
+  .gallery {
+    margin-left: -20px;
+
+  }
+
+  .galleryRail figure, .galleryRail img {
+  width: 100%;
+  min-width: 100%;
+
   }
 }

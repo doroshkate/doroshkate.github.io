@@ -1,1 +1,0 @@
-# narkomfin-building.github.io

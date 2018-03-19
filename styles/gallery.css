@@ -44,6 +44,10 @@
 
   width: 100%;
   height: calc(100% - 51px); /*чтобы навигация заняла не весь gallery целиком и осталось место для подписи*/
+  max-width: 1200px;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+  z-index: 5;
 }
 
 .galleryNavItem {
@@ -97,3 +101,6 @@ cursor: default;
     color: rgba(0,0,0,.4);
     text-decoration: underline;
 }
+ .gallery figcaption a {
+   text-decoration: underline;
+ }
